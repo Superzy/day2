@@ -1,0 +1,91 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: .14rem;
+}
+header{
+    height: .45rem;
+    line-height: .45rem;
+    background: #666;
+}
+header span{
+    display: inline-block;
+    font-size: .2rem;
+    color: #fff;
+}
+header>span:first-child,
+header>span:last-child {
+    width: 8%;
+    text-align: center;
+}
+header>span:nth-child(2){
+    width: 80%;
+}
+.tc{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .5)
+}
+.ck{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    height: 60%;
+    margin-top: 25%;
+}
+.ck>div:first-child div{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .2rem;
+}
+.ck>div:first-child img{
+    width: 100%;
+}
+.ck>div:first-child p{
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+}
+.ck>div:nth-child(2){
+    margin-top: .2rem;
+}
+.ck>div:nth-child(2) div{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: .4rem;
+    margin-bottom: .1rem;
+    border-bottom: .01rem solid #666;
+    line-height: .4rem;
+}
+.ck>div:nth-child(2) div img{
+    width: 10%;
+    vertical-align: middle
+}
+.ck>div:nth-child(2) div input{
+    width: 80%;
+    border:none;
+}
+.ck>div:last-child{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .2rem;
+}
+.ck button{
+    width: 100%;
+    height: .4rem;
+    background: green;
+    color: #fff;
+    border:none;
+    border-radius: .1rem;
+}
